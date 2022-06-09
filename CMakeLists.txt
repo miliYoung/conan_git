@@ -3,4 +3,4 @@ project(conan_test)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(conan_test main.cpp)
+add_executable(conan_test main.cpp sub_test.cpp sub_test.h)
